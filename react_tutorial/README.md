@@ -1,4 +1,5 @@
 # React Tutorial
+Using no frameworks at first so I can better understand vanilla React
 
 ## Building a new React Project
 - To start a new React project, you need to pick a React-powered framework
