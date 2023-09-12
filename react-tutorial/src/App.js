@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Gallery from './Components/Gallery';
 /*
 function App() {
   return (
@@ -24,17 +25,9 @@ function App() {
 
 export default App;
 */
-function App() {
-  return (
-    <button>I'm a button</button>
-  );
-}
 
-export default function MyApp() {
+export default function App() {
   return (
-    <div>
-      <h1>Welcome to my app</h1>
-    <App />
-    </div>
+    <Gallery />
   );
 }
