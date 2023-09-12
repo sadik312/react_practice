@@ -15,12 +15,11 @@ export const people = [{
    name: 'Mohammad Abdus Salam',
    profession: 'physicist',
    accomplishment: 'electromagnetism theory',
-   imageId: 'IOjWm71' 
+   imageId: 'bE7W1ji' 
 }, {
     id: 3,
     name: 'Percy Lavon Julian',
     profession: 'chemist',
     accomplishment: 'pioneering cortisone drugs, steriods and birth control pills',
-    imageId: 'be7W1ji'
-}
-];
+    imageId: 'IOjWm71'
+}];
