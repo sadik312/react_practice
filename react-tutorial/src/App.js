@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Gallery from './Components/Gallery';
+import { people } from './Components/data';
+import { getImageUrl } from './Components/utils';
 /*
 function App() {
   return (
@@ -27,7 +28,22 @@ export default App;
 */
 
 export default function App() {
+  const listItems = people.map(person =>
+    <li key={person.id}>
+      <img 
+        src={getImageUrl(person)}  
+        alt={person.id}
+      />
+    <p>
+      <b>{person.name}: </b>
+      known for {' ' + person.profession + ' '}
+    </p>
+    </li>
+    );
   return (
-    <Gallery />
+    <article>
+    <h1>Scientists</h1>
+    <ul>{listItems}</ul>
+    </article>
   );
 }
